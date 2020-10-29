@@ -117,7 +117,7 @@ header {
 /* ============SLIDER=================== */
 
 .slider {
-  background-image: url(./img/slider-fon.png);
+  background-image: url(../img/slider-fon.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
