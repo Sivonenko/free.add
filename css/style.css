@@ -301,3 +301,32 @@ header {
   border-bottom: 1px solid #050505;
   margin-right: 30px;
 }
+/* ==========SERVICES======== */
+.services {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  padding: 25px 0px 45px;
+}
+.services__inner {
+  max-width: 545px;
+}
+.services__title {
+  padding: 10px 0px 25px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.services__text {
+  margin-bottom: 30px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #d3d2d2;
+}
+.services__btn.default-btn::after {
+  color: #000;
+}
