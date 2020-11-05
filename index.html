@@ -12,6 +12,8 @@
         href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.formstyler.css">
+    <link rel="stylesheet" href="./css/jquery.formstyler.theme.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -33,7 +35,7 @@
                 <div class="header__content-inner">
                     <div class="header__logo">
                         <a href="#">
-                            <img src="img/logo.jpg" width="140" height="60" alt="logo">
+                            <!-- <img src="img/logo.jpg" width="140" height="60" alt="logo"> -->
                         </a>
                     </div>
                     <nav class="menu">
@@ -136,10 +138,10 @@
         <div class="container">
             <div class="about__top">
                 <div class="about__title-box">
-                    <div class="about-title">
+                    <div class="about__title">
                         Наши Услуги
                     </div>
-                    <div class="about-text">
+                    <div class="about__text">
                         Регулярное техническое обслуживание в нашем автосервисе - это уверенность в исправности своего
                         автомобиля. </div>
                 </div>
@@ -259,8 +261,10 @@
             </div>
             <div class="services__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi tenetur laborum. Et placeat
-                reiciendis eveniet reprehenderit, fuga esse officiis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi tenetur laborum. Et placeat
-                reiciendis evenietLorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi tenetur laborum. Et placeat
+                reiciendis eveniet reprehenderit, fuga esse officiis.Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Labore commodi tenetur laborum. Et placeat
+                reiciendis evenietLorem ipsum dolor sit amet consectetur adipisicing elit. Labore commodi tenetur
+                laborum. Et placeat
                 reiciendis eveniet
             </div>
             <a href="#" class="services__btn default-btn">
@@ -269,7 +273,59 @@
         </div>
         </div>
     </section>
+    <section class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__content">
+                    <div class="form__title-box">
+                        <div class="form__title">
+                            Получить консультацию
+                        </div>
+                        <div class="form__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+                            quaerat a voluptatum sint harum autem veritatis velit eius at. Porro exercitationem at
+                            laudantium dignissimos?</div>
+                    </div>
+                </div>
+                <div class="form__box">
+                    <form>
+                        <div class="form__box-inner">
+                            <div class="form__box-left">
+                                <label>
+                                    E-mail
+                                    <input type="text">
+                                </label>
+                                <label>
+                                    Контактный телефон
+                                    <input type="text">
+                                </label>
+                                <label>
+                                    ФИО
+                                    <input type="text">
+                                </label>
+                                <label>
+                                    Тема вопроса
+                                    <select>
+                                        <option>Вопрос</option>
+                                        <option>Вопрос</option>
+                                        <option>Вопрос</option>
+                                        <option>Вопрос</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="form__box-right">
+                                <label>
+                                    Получить сообщение
+                                    <textarea style="height: 208;"></textarea>
+                                </label>
+                                <button class="default-btn" type="submit">Получить консультацию</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
+    </section>
 
 
 
@@ -281,11 +337,9 @@
         <h2>Hello</h2>
         <p>You are awencome!</p>
     </div>
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/jquery.fancybox.min.js" type="module"></script>
+    <script src="./js/jquery.formstyler.min.js" type="module"></script>
     <script src="./js/slick.min.js" type="module"></script>
 
     <script src="./js/main.js" type="module"></script>
